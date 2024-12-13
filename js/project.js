@@ -1,7 +1,7 @@
 //project Functionalities 
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const API_KEY = "AIzaSyAvbjDyqfZW6kafC2V5eePFdbZFbUxMtUw";
+const API_KEY = "AI"; //Update it with your APT key
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 document.getElementById("projectRecommendationBtn").addEventListener("click", getProjectRecommendations);
