@@ -1,5 +1,5 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
-const API_KEY = "AIzaSyAvbjDyqfZW6kafC2V5eePFdbZFbUxMtUw"; // Replace with your actual API key
+const API_KEY = "AI"; // Replace with your actual API key
             const genAI = new GoogleGenerativeAI(API_KEY);
             document.getElementById("jobRecommendationBtn").addEventListener("click", getJobRecommendations);
 
